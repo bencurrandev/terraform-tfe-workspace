@@ -1,10 +1,10 @@
 variable template_repository_owner {
-  type = string
+  type    = string
   default = "bencurrandev"
 }
 
 variable template_repository_name {
-  type = string
+  type    = string
   default = "terraform-repository-template"
 }
 
@@ -13,12 +13,12 @@ variable repository_name {
 }
 
 variable repository_description {
-  type = string
+  type    = string
   default = ""
 }
 
 variable repository_branch {
-  type = string
+  type    = string
   default = "master"
 }
 
@@ -27,17 +27,17 @@ variable oauth_token_id {
 }
 
 variable tfe_org_name {
-  type = string
+  type    = string
   default = "bencurrandev"
 }
 
 variable tfe_workspace_name {
-  type = string
+  type    = string
   default = ""
 }
 
 variable tfe_auto_apply {
-  type = bool
+  type    = bool
   default = false
 }
 
@@ -47,21 +47,21 @@ variable tfe_working_directory {
 }
 
 variable repository_private {
-  type = bool
+  type    = bool
   default = false
 }
 
 variable env_var {
-  type = map
+  type    = map
   default = {}
 }
 
 variable tf_var {
-  type = map
+  type    = map
   default = {}
 }
 
 variable create_repo {
-  type = bool
+  type    = bool
   default = true
 }
